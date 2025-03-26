@@ -11,7 +11,7 @@ function App() {
   const [editName, setEditName] = useState('');
   const [editDescription, setEditDescription] = useState('');
 
-  const apiUrl = 'http://localhost:5000/api/projects';
+  const apiUrl = 'https://iad-backend.vercel.app/api/projects';
 
   const fetchProjects = async () => {
     try {
